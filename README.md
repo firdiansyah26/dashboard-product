@@ -7,6 +7,7 @@ NPM Version   : 8.1.2
 Yarn Version  : 1.22.19
 Framework     : NextJs (Typescript)
 Styling       : Tailwind
+Vercel        : https://dashboard-product.vercel.app/
 ```
 
 ## How to Run
