@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 
 function Sidebar({ ...props }) {
-
   const menuList = [
     { label: "Products", route: "products" },
     { label: "Carts", route: "carts" },
@@ -16,6 +15,7 @@ function Sidebar({ ...props }) {
         {menuList.map((x, i) => {
           return (
             <li
+              key={i}
               className={"p-3 cursor-pointer w-52"}
               onClick={() => props.setCurrentMenu(x.route)}
             >

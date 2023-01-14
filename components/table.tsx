@@ -195,14 +195,6 @@ function TabelCartComponent({ ...props }) {
 function ButtonSection({ totalPage, list, setListTemp }: buttonProps) {
   const [currentPage, setCurrentPage] = useState(1);
 
-  useEffect(() => {
-    setListPerPage();
-  }, [currentPage]);
-
-  useEffect(() => {
-    setListPerPage();
-  }, [list.length]);
-
   function setListPerPage() {
     const pageSize = 10;
     let result: any[] = [];
@@ -219,6 +211,15 @@ function ButtonSection({ totalPage, list, setListTemp }: buttonProps) {
 
     setListTemp(result);
   }
+
+  useEffect(() => {
+    setListPerPage();
+  }, [currentPage]);
+
+  useEffect(() => {
+    setListPerPage();
+  }, [list.length]);
+
 
   return (
     <div className="flex flex-row gap-3 items-center">
