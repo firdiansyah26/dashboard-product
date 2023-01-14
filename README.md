@@ -1,5 +1,22 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Configuration
+```bash
+Node Version  : 16.13.1
+NPM Version   : 8.1.2
+Yarn Version  : 1.22.19
+Framework     : NextJs (Typescript)
+Styling       : Tailwind
+```
+
+## How to Run
+### Running this command in cmd `movie-time`
+```bash
+1. yarn / npm i
+2. yarn dev / npm run dev
+3. Project runing in http:localhost:3000
+```
+
 ## Getting Started
 
 First, run the development server:
