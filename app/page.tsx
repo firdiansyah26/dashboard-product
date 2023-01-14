@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="grid grid-cols-[300px_1fr] gap-5">
+      <div className="lg:grid lg:grid-cols-[300px_1fr] gap-5">
         <Sidebar setCurrentMenu={setCurrentMenu} currentMenu={currentMenu} />
 
         <Tabel currentMenu={currentMenu}/>
